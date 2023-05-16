@@ -5,11 +5,12 @@ We are sort of going to play minesweeper.
 From command files, we will read a series of commands and proceed to play the game.
 
 
-The game is over when
+The game is over when, 
 
-*The player touched all the spaces in the grid without any bombs, thus safely clearing board.
+1. The player touched all the spaces in the grid without any bombs, thus safely clearing board.
 
-*The player touched a bomb.
+2. The player touched a bomb.
+
 
 Our grid will be 8x8, and there are 3 commands that our program will process.
 
@@ -25,9 +26,9 @@ For display, use the following symbols
 
 '#' : the number will indicate how many bombs this square is touching.  Put the actual number not the '#' symbol.
 
-* : this is an exploded bomb.  So in the final board display, if the player touched a bomb, this will be shown.
-* 
-@ - this is an unexploded bomb.  So in the final board display, if the player didn't touch a bomb, this symbol will be shown.
+'*' : this is an exploded bomb.  So in the final board display, if the player touched a bomb, this will be shown.
+ 
+'@' - this is an unexploded bomb.  So in the final board display, if the player didn't touch a bomb, this symbol will be shown.
 
 
 Sample files for testing is provided.
