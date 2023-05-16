@@ -12,6 +12,7 @@ The game is over when,
 2. The player touched a bomb.
 
 
+
 Our grid will be 8x8, and there are 3 commands that our program will process.
 
 *load : the load command will read the filename that follows and open that file and read in the given board.  The board will be shown below, but it will be in an 8x8 grid of . and *.  A . indicates a blank space and a * indicates a bomb.  We will have 10 bombs and 54 blanks.
