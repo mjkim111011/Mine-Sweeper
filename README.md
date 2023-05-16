@@ -28,7 +28,7 @@ For display, use the following symbols
 
 '*' : this is an exploded bomb.  So in the final board display, if the player touched a bomb, this will be shown.
  
-'@' - this is an unexploded bomb.  So in the final board display, if the player didn't touch a bomb, this symbol will be shown.
+'@' : this is an unexploded bomb.  So in the final board display, if the player didn't touch a bomb, this symbol will be shown.
 
 
-Sample files for testing is provided.
+Sample files for testing are provided.
